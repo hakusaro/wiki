@@ -21,13 +21,8 @@
 
     <div class="container content">
       <div id="tipue_search_content"></div>
-      {{ content }}
-
-      {% if page.hide_footer %}
-      {% else %}
-        {% capture footer %}{% include _Footer.md %}{% endcapture %}
-        {{ footer | markdownify }}
-      {% endif %}
+      {{ content }} {% if page.hide_footer %} {% else %} {% capture footer %}{% include _Footer.md %}{% endcapture %} {{ footer
+      | markdownify }} {% endif %}
     </div>
   </div>
 
@@ -35,6 +30,11 @@
 
   <script>
     $(document).ready(function () {
+      // Open the sidebar on load on bigger screens
+      if ($(window).width() > 767) {
+        $('#sidebar-checkbox').prop('checked', true)
+      }
+      // Hook up search
       $('#tipue_search_input').tipuesearch({ 'show': 99 });
     });
   </script>
