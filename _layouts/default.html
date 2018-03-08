@@ -20,11 +20,24 @@
     </div>
 
     <div class="container content">
-      {{ content }} {% capture footer %}{% include _Footer.md %}{% endcapture %} {{ footer | markdownify }}
+      <div id="tipue_search_content"></div>
+      {{ content }}
+
+      {% if page.hide_footer %}
+      {% else %}
+        {% capture footer %}{% include _Footer.md %}{% endcapture %}
+        {{ footer | markdownify }}
+      {% endif %}
     </div>
   </div>
 
   <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+  <script>
+    $(document).ready(function () {
+      $('#tipue_search_input').tipuesearch({ 'show': 99 });
+    });
+  </script>
 </body>
 
 </html>
