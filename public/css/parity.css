@@ -4,6 +4,7 @@
 
 .sidebar-toggle {
   left: 2rem;
+  position: fixed;
 }
 
 nav.sidebar-nav {
