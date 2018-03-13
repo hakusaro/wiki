@@ -1,5 +1,5 @@
 .sidebar {
-  width: 15rem;
+  width: 17rem;
 }
 
 .sidebar-toggle {
@@ -14,4 +14,30 @@ nav.sidebar-nav {
 
 nav.sidebar-nav h2, nav.sidebar-nav h3 {
   color: white;
+}
+
+html {
+line-height:1.3em !important;
+font-size:14px !important;
+}
+
+.highlight {
+    overflow-y: scroll;
+}
+
+pre {
+    white-space: nowrap;
+}
+
+code {
+    font-size: .8em !important;
+    word-wrap: break-word;
+}
+
+.masthead{
+    margin-bottom:0 !important;
+}
+
+#sidebar-checkbox:checked ~ .sidebar-toggle {
+    left: 4em;
 }
