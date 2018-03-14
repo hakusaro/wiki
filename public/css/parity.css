@@ -17,8 +17,8 @@ nav.sidebar-nav h2, nav.sidebar-nav h3 {
 }
 
 html {
-line-height:1.3em !important;
-font-size:14px !important;
+line-height:1.5em !important;
+font-size:16px !important;
 }
 
 .highlight {
@@ -30,7 +30,7 @@ pre {
 }
 
 code {
-    font-size: .8em !important;
+    font-size: 1em !important;
     word-wrap: break-word;
 }
 
@@ -40,4 +40,28 @@ code {
 
 #sidebar-checkbox:checked ~ .sidebar-toggle {
     left: 4em;
+}
+
+@media (min-width: 70em){
+    .container {
+        max-width: 48rem;
+    }
+}
+
+@media (min-width: 48em){
+    .sidebar-item {
+        padding: 1rem !important;
+    }
+    .sidebar {
+        width: 20rem;
+    }
+    #sidebar-checkbox:checked ~ .sidebar-toggle {
+        left: 8em;
+    }
+}
+
+@media (min-width: 30em) {
+    .sidebar {
+        font-size: 1rem;
+    }
 }
