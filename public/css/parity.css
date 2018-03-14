@@ -17,59 +17,59 @@ nav.sidebar-nav h2, nav.sidebar-nav h3 {
 }
 
 html {
-line-height:1.5em !important;
-font-size:16px !important;
+  line-height: 1.5em !important;
+  font-size: 16px !important;
 }
 
 .highlight {
-    overflow-y: scroll;
+  overflow-y: scroll;
 }
 
 pre {
-    white-space: nowrap;
+  white-space: nowrap;
 }
 
 code {
-    font-size: 1em !important;
-    word-wrap: break-word;
+  font-size: 1em !important;
+  word-wrap: break-word;
 }
 
 .masthead{
-    margin-bottom:0 !important;
+  margin-bottom:0 !important;
 }
 
 #sidebar-checkbox:checked ~ .sidebar-toggle {
-    left: 4em;
+  left: 4em;
 }
 
 .footer {
-    margin-top : 3rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    border-top: 1px solid #eee;
-    text-align: center;
+  margin-top : 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-top: 1px solid #eee;
+  text-align: center;
 }
 
 @media (min-width: 70em){
-    .container {
-        max-width: 48rem;
-    }
+  .container {
+    max-width: 48rem;
+  }
 }
 
 @media (min-width: 48em){
-    .sidebar-item {
-        padding: 1rem !important;
-    }
-    .sidebar {
-        width: 20rem;
-    }
-    #sidebar-checkbox:checked ~ .sidebar-toggle {
-        left: 8em;
-    }
+  .sidebar-item {
+    padding: 1rem !important;
+  }
+  .sidebar {
+    width: 20rem;
+  }
+  #sidebar-checkbox:checked ~ .sidebar-toggle {
+    left: 8em;
+  }
 }
 
 @media (min-width: 30em) {
-    .sidebar {
-        font-size: 1rem;
-    }
+  .sidebar {
+    font-size: 1rem;
+  }
 }

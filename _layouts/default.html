@@ -21,8 +21,7 @@
 
     <div class="container content">
       <div id="tipue_search_content"></div>
-      {{ content }} {% if page.hide_footer %} {% else %} {% capture footer %}{% include Footer.html %}{% endcapture %} {{ footer
-      | markdownify }} {% endif %}
+      {{ content }} {% if page.hide_footer %} {% else %} {% include Footer.html %} {% endif %}
     </div>
   </div>
 
