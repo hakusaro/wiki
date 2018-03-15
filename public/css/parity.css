@@ -51,9 +51,9 @@ code {
   text-align: center;
 }
 
-@media (min-width: 70em){
-  .container {
-    max-width: 48rem;
+@media (min-width: 30em) {
+  .sidebar {
+    font-size: 1rem;
   }
 }
 
@@ -69,8 +69,14 @@ code {
   }
 }
 
-@media (min-width: 30em) {
-  .sidebar {
-    font-size: 1rem;
+@media (min-width: 70em){
+  .container {
+    max-width: 48rem;
+  }
+}
+
+@media (min-width: 100em){
+  .container {
+    max-width: 60rem;
   }
 }
