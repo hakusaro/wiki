@@ -7,7 +7,7 @@
 ## Contract examples
 
 - [pwasm-token-example](https://github.com/paritytech/pwasm-token-example). ERC20 token in Rust.
-- [pwasm-repo-contract](https://github.com/paritytech/pwasm-token-example). Simple REPO contract with some lending-borrowing logic in Rust, which uses ERC20 tokens.
+- [pwasm-repo-contract](https://github.com/paritytech/pwasm-repo-contract). Simple REPO contract with some lending-borrowing logic in Rust, which uses ERC20 tokens.
 
 ## Repositories index
 
